@@ -4,7 +4,7 @@ import org.apache.commons.io.FileUtils
 
 class BackupUtils {
     static void performBackup() {
-        def srcDir = new File('/var/lib/jenkins')
+        def srcDir = new File('/opt/dir')
         def destDir = new File('/opt/backup1')
 
         try {
